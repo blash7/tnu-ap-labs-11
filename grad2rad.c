@@ -1,14 +1,9 @@
 #include <stdio.h>
 #include <math.h>
-void main (){
-float a,b,c,p,s;
-printf("a=");
-scanf("%f",&a);
-printf("b=");
-scanf("%f",&b);
-printf("c=");
-scanf("%f",&c);
-p=(a+b+c)/2;
-s=sqrt(p*(p-a)*(p-b)*(p-c)) ;
-printf("Площадь треугольника=%f\n", s) ;
-} 
+void main()
+{
+float grad;
+printf("Введите градусы: ");
+scanf("%f", grad);
+printf("Радианы: %f\n",  (grad*pi())/180);
+}
